@@ -67,7 +67,7 @@ def score_table(exercise, frame, counter, status):
 
 def run_sit_up_exercise():
     """Run the Sit-Up Exercise function using webcam feed."""
-    cap = cv2.VideoCapture(1)  # webcam
+    cap = cv2.VideoCapture(0)  # webcam
 
     cap.set(3, 800)  # width
     cap.set(4, 480)  # height
